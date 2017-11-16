@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0709BB941FBD85F300700720 /* EditStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709BB921FBD85F300700720 /* EditStudentVC.swift */; };
+		0709BB951FBD85F300700720 /* EditStudentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0709BB931FBD85F300700720 /* EditStudentVC.xib */; };
+		075275431FB714F3004FBCDB /* StudentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075275411FB714F3004FBCDB /* StudentListVC.swift */; };
+		075275441FB714F3004FBCDB /* StudentListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075275421FB714F3004FBCDB /* StudentListVC.xib */; };
+		0754ADC61FB66358004DA7DC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754ADC41FB66358004DA7DC /* CustomTableViewCell.swift */; };
+		0754ADC71FB66358004DA7DC /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0754ADC51FB66358004DA7DC /* CustomTableViewCell.xib */; };
 		078326BA1FB647D000102C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078326B91FB647D000102C98 /* AppDelegate.swift */; };
 		078326BC1FB647D000102C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078326BB1FB647D000102C98 /* ViewController.swift */; };
 		078326BF1FB647D000102C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078326BD1FB647D000102C98 /* Main.storyboard */; };
 		078326C21FB647D000102C98 /* CodeCamp_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 078326C01FB647D000102C98 /* CodeCamp_3.xcdatamodeld */; };
 		078326C41FB647D000102C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078326C31FB647D000102C98 /* Assets.xcassets */; };
 		078326C71FB647D000102C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078326C51FB647D000102C98 /* LaunchScreen.storyboard */; };
+		078326D71FB64A4000102C98 /* StudentManagedObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078326D31FB64A4000102C98 /* StudentManagedObject+CoreDataClass.swift */; };
+		078326D81FB64A4000102C98 /* StudentManagedObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078326D41FB64A4000102C98 /* StudentManagedObject+CoreDataProperties.swift */; };
+		078326D91FB64A4000102C98 /* RoomManagedObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078326D51FB64A4000102C98 /* RoomManagedObject+CoreDataClass.swift */; };
+		078326DA1FB64A4000102C98 /* RoomManagedObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078326D61FB64A4000102C98 /* RoomManagedObject+CoreDataProperties.swift */; };
+		07BADD331FB66C9A0013C70E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BADD321FB66C9A0013C70E /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0709BB921FBD85F300700720 /* EditStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentVC.swift; sourceTree = "<group>"; };
+		0709BB931FBD85F300700720 /* EditStudentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditStudentVC.xib; sourceTree = "<group>"; };
+		075275411FB714F3004FBCDB /* StudentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListVC.swift; sourceTree = "<group>"; };
+		075275421FB714F3004FBCDB /* StudentListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentListVC.xib; sourceTree = "<group>"; };
+		0754ADC41FB66358004DA7DC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		0754ADC51FB66358004DA7DC /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		078326B61FB647D000102C98 /* CodeCamp_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCamp_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078326B91FB647D000102C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		078326BB1FB647D000102C98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,11 @@
 		078326C31FB647D000102C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078326C61FB647D000102C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		078326C81FB647D000102C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078326D31FB64A4000102C98 /* StudentManagedObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentManagedObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		078326D41FB64A4000102C98 /* StudentManagedObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentManagedObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		078326D51FB64A4000102C98 /* RoomManagedObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoomManagedObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		078326D61FB64A4000102C98 /* RoomManagedObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoomManagedObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		07BADD321FB66C9A0013C70E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0709BB961FBD85F600700720 /* EditStudent */ = {
+			isa = PBXGroup;
+			children = (
+				0709BB921FBD85F300700720 /* EditStudentVC.swift */,
+				0709BB931FBD85F300700720 /* EditStudentVC.xib */,
+			);
+			path = EditStudent;
+			sourceTree = "<group>";
+		};
+		075275451FB714FD004FBCDB /* StudentListVC */ = {
+			isa = PBXGroup;
+			children = (
+				075275411FB714F3004FBCDB /* StudentListVC.swift */,
+				075275421FB714F3004FBCDB /* StudentListVC.xib */,
+			);
+			path = StudentListVC;
+			sourceTree = "<group>";
+		};
+		0754ADC81FB66362004DA7DC /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0754ADC41FB66358004DA7DC /* CustomTableViewCell.swift */,
+				0754ADC51FB66358004DA7DC /* CustomTableViewCell.xib */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
 		078326AD1FB647D000102C98 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +105,31 @@
 		078326B81FB647D000102C98 /* CodeCamp_3 */ = {
 			isa = PBXGroup;
 			children = (
-				078326B91FB647D000102C98 /* AppDelegate.swift */,
+				078326DB1FB64A4500102C98 /* Data */,
+				075275451FB714FD004FBCDB /* StudentListVC */,
 				078326BB1FB647D000102C98 /* ViewController.swift */,
+				078326B91FB647D000102C98 /* AppDelegate.swift */,
 				078326BD1FB647D000102C98 /* Main.storyboard */,
 				078326C31FB647D000102C98 /* Assets.xcassets */,
+				07BADD321FB66C9A0013C70E /* CustomCollectionViewCell.swift */,
+				0709BB961FBD85F600700720 /* EditStudent */,
+				0754ADC81FB66362004DA7DC /* CustomTableViewCell */,
 				078326C51FB647D000102C98 /* LaunchScreen.storyboard */,
 				078326C81FB647D000102C98 /* Info.plist */,
 				078326C01FB647D000102C98 /* CodeCamp_3.xcdatamodeld */,
 			);
 			path = CodeCamp_3;
+			sourceTree = "<group>";
+		};
+		078326DB1FB64A4500102C98 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				078326D31FB64A4000102C98 /* StudentManagedObject+CoreDataClass.swift */,
+				078326D41FB64A4000102C98 /* StudentManagedObject+CoreDataProperties.swift */,
+				078326D51FB64A4000102C98 /* RoomManagedObject+CoreDataClass.swift */,
+				078326D61FB64A4000102C98 /* RoomManagedObject+CoreDataProperties.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +193,10 @@
 			files = (
 				078326C71FB647D000102C98 /* LaunchScreen.storyboard in Resources */,
 				078326C41FB647D000102C98 /* Assets.xcassets in Resources */,
+				075275441FB714F3004FBCDB /* StudentListVC.xib in Resources */,
 				078326BF1FB647D000102C98 /* Main.storyboard in Resources */,
+				0709BB951FBD85F300700720 /* EditStudentVC.xib in Resources */,
+				0754ADC71FB66358004DA7DC /* CustomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0754ADC61FB66358004DA7DC /* CustomTableViewCell.swift in Sources */,
+				07BADD331FB66C9A0013C70E /* CustomCollectionViewCell.swift in Sources */,
+				075275431FB714F3004FBCDB /* StudentListVC.swift in Sources */,
+				078326D81FB64A4000102C98 /* StudentManagedObject+CoreDataProperties.swift in Sources */,
+				078326DA1FB64A4000102C98 /* RoomManagedObject+CoreDataProperties.swift in Sources */,
+				078326D71FB64A4000102C98 /* StudentManagedObject+CoreDataClass.swift in Sources */,
+				0709BB941FBD85F300700720 /* EditStudentVC.swift in Sources */,
+				078326D91FB64A4000102C98 /* RoomManagedObject+CoreDataClass.swift in Sources */,
 				078326C21FB647D000102C98 /* CodeCamp_3.xcdatamodeld in Sources */,
 				078326BC1FB647D000102C98 /* ViewController.swift in Sources */,
 				078326BA1FB647D000102C98 /* AppDelegate.swift in Sources */,
